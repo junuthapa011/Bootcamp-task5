@@ -7,8 +7,7 @@ function App() {
  const names = ['John','Syntell','Julie','Jacob','Jenny','Danny']
   return (
     <>
-    <div className="header">CSS Styling and JS Variables in React Project</div>
-    <header></header>
+    <div className="header"><h2>CSS Styling and JS Variables in React Project</h2></div>
     <nav>
       <ul>
        <li><a href = "index.html">Home</a></li>
@@ -18,7 +17,7 @@ function App() {
     </nav>
     
     
-
+  <div className ="background">
     <div className="head">
       
       <div className="main">
@@ -29,6 +28,7 @@ function App() {
         <li>{names[4]}</li>
         <li>{names[5]}</li>
       </div>
+    </div>
     </div>
 
     <div className="footer">
