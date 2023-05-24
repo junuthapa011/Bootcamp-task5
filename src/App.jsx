@@ -7,6 +7,18 @@ function App() {
  const names = ['John','Syntell','Julie','Jacob','Jenny','Danny']
   return (
     <>
+    <div className="header">CSS Styling and JS Variables in React Project</div>
+    <header></header>
+    <nav>
+      <ul>
+       <li><a href = "index.html">Home</a></li>
+       <li><a href = "index.html">Menu</a></li>
+       <li><a href = "index.html">Shop</a></li>
+      </ul>
+    </nav>
+    
+    
+
     <div className="head">
       
       <div className="main">
@@ -17,6 +29,10 @@ function App() {
         <li>{names[4]}</li>
         <li>{names[5]}</li>
       </div>
+    </div>
+
+    <div className="footer">
+    <footer>Copyright &copy; 2023 </footer>
     </div>
     </>
   )
